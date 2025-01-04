@@ -1,7 +1,7 @@
 export default [
     {
         title: 'Sentiment Analysis of Reddit posts',
-        imgUrl: '/assets/sentiment_analysis.png',
+        imgUrl: 'assets/sentiment_analysis.png',
         stack:['Pytorch', 'Pandas', 'Hugginface', 'RoBERTa', 'Scikit-learn', 'MatplotLib', 'Seaborn'],
         link: 'https://github.com/andrea-mar/BBK_MScDataScience2reddit_posts/blob/main/sentiment_analysis_aba_posts_full_set.ipynb', 
         links: [
@@ -15,7 +15,7 @@ export default [
     },
     {
         title: 'Obesity predictors world-wide',
-        imgUrl: '/assets/obesity_predictors.png',
+        imgUrl: 'assets/obesity_predictors.png',
         stack:['Python', 'Pandas', 'Scikit-learn', 'MatplotLib', 'Seaborn'],
         link: 'https://github.com/andrea-mar/DSTA-bbk-ms-dataScience/blob/main/coursework%20DSTA-final-version.ipynb',
         links: [
