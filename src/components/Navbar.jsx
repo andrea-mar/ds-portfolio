@@ -51,7 +51,7 @@ function Navbar() {
                             {navLinks.map((link, index) => (
                                 <li key={index} className="text-white text-2xl">
                                     <a 
-                                        href={link.title === 'CV' ? link.url : `${link.id}`} // Check for 'CV' and redirect to the external URL
+                                        href={link.title === 'CV' ? link.url : `#${link.id}`} // Check for 'CV' and redirect to the external URL
                                         target={link.title === 'CV' ? '_blank' : '_self'} // Open 'CV' link in a new tab
                                         className="hover:underline"
                                     >

@@ -24,3 +24,11 @@ function App() {
 }
 
 export default App
+
+
+
+
+
+// to deploy changes on github pages: 
+// npm run build
+// npm run deploy  //This will automatically push your dist folder to the gh-pages branch of your GitHub repository.
