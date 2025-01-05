@@ -1,5 +1,17 @@
 export default [
     {
+        title: 'AskReddit comments - topic analysis',
+        imgUrl: 'assets/askreddit_not_drinking_alcohol.png',
+        stack:['Python', 'Pandas', 'BERTopic', 'Datamapplot', 'Matplotlib', 'Reddit API', 'Praw'],
+        link: '',
+        links: [
+                {'Comments extraction with Praw notebook': 'https://github.com/andrea-mar/askreddit_topicanalysis/blob/main/3_bertopic_askreddit_comments.ipynb'},
+                {'Text cleaning notebook': 'https://github.com/andrea-mar/askreddit_topicanalysis/blob/main/3_bertopic_askreddit_comments.ipynb'},
+                {'Topic analysis and visualizations notebook': 'https://github.com/andrea-mar/askreddit_topicanalysis/blob/main/3_bertopic_askreddit_comments.ipynb'}
+            ]
+       
+    },
+    {
         title: 'Sentiment Analysis of Reddit posts',
         imgUrl: 'assets/sentiment_analysis.png',
         stack:['Pytorch', 'Pandas', 'Hugginface', 'RoBERTa', 'Scikit-learn', 'MatplotLib', 'Seaborn'],
