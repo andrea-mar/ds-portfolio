@@ -11,6 +11,11 @@ const navLinks = [
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+    // Function to handle both navigation and menu closing
+    const handleNavClick = (e) => {
+        setIsMenuOpen(false);  // Close the menu when a link is clicked
+    };
+
     return (
         <div className="bg-gray-800 fixed w-full top-0 left-0 z-10">
             <div className="flex justify-between mx-auto items-center py-4 px-6 md:px-24">
@@ -30,9 +35,10 @@ function Navbar() {
                     {navLinks.map((link, index) => (
                         <li key={index} className="text-white text-sm">
                             <a 
-                                href={link.title === 'CV' ? link.url : `#${link.id}`} // Check for 'CV' and redirect to the external URL
-                                target={link.title === 'CV' ? '_blank' : '_self'} // Open 'CV' link in a new tab
+                                href={link.title === 'CV' ? link.url : `#${link.id}`}
+                                target={link.title === 'CV' ? '_blank' : '_self'}
                                 className="hover:underline"
+                                onClick={handleNavClick}
                             >{link.title}</a>
                         </li>
                     ))}
@@ -51,9 +57,10 @@ function Navbar() {
                             {navLinks.map((link, index) => (
                                 <li key={index} className="text-white text-2xl">
                                     <a 
-                                        href={link.title === 'CV' ? link.url : `#${link.id}`} // Check for 'CV' and redirect to the external URL
-                                        target={link.title === 'CV' ? '_blank' : '_self'} // Open 'CV' link in a new tab
+                                        href={link.title === 'CV' ? link.url : `#${link.id}`}
+                                        target={link.title === 'CV' ? '_blank' : '_self'}
                                         className="hover:underline"
+                                        onClick={handleNavClick}  // onClick handler 
                                     >
                                         {link.title}
                                     </a>
