@@ -5,8 +5,8 @@ export default [
         stack:['Python', 'Pandas', 'BERTopic', 'Datamapplot', 'Matplotlib', 'Reddit API', 'Praw'],
         link: '',
         links: [
-                {'Comments extraction with Praw notebook': 'https://github.com/andrea-mar/askreddit_topicanalysis/blob/main/3_bertopic_askreddit_comments.ipynb'},
-                {'Text cleaning notebook': 'https://github.com/andrea-mar/askreddit_topicanalysis/blob/main/3_bertopic_askreddit_comments.ipynb'},
+                {'Comments extraction with Praw notebook': 'https://github.com/andrea-mar/askreddit_topicanalysis/blob/main/1_get_redditpost_comments.ipynb'},
+                {'Text cleaning notebook': 'https://github.com/andrea-mar/askreddit_topicanalysis/blob/main/2_reddit_comments_text_clean.ipynb'},
                 {'Topic analysis and visualizations notebook': 'https://github.com/andrea-mar/askreddit_topicanalysis/blob/main/3_bertopic_askreddit_comments.ipynb'}
             ]
        
