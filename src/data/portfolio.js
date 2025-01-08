@@ -1,13 +1,14 @@
 export default [
     {
         title: 'AskReddit comments - topic analysis',
-        imgUrl: 'assets/askreddit_not_drinking_alcohol.png',
-        stack:['Python', 'Pandas', 'BERTopic', 'Datamapplot', 'Matplotlib', 'Reddit API', 'Praw'],
+        imgUrl: 'assets/askreddit_bertopic_llama2.png',
+        stack:['Python', 'Pandas', 'BERTopic', 'Llama2','Huggingface', 'Matplotlib', 'Reddit API', 'Praw'],
         link: '',
         links: [
                 {'Comments extraction with Praw notebook': 'https://github.com/andrea-mar/askreddit_topicanalysis/blob/main/1_get_redditpost_comments.ipynb'},
                 {'Text cleaning notebook': 'https://github.com/andrea-mar/askreddit_topicanalysis/blob/main/2_reddit_comments_text_clean.ipynb'},
-                {'Topic analysis and visualizations notebook': 'https://github.com/andrea-mar/askreddit_topicanalysis/blob/main/3_bertopic_askreddit_comments.ipynb'}
+                {'Topic analysis and visualizations notebook': 'https://github.com/andrea-mar/askreddit_topicanalysis/blob/main/3a_bertopic_askreddit_comments.ipynb'},
+                {'Topics with Llama2 notebook': 'https://github.com/andrea-mar/askreddit_topicanalysis/blob/main/3b_bertopic_askreddit_comments_Llama2.ipynb'}
             ]
        
     },
