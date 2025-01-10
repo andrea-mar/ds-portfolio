@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 
-function PortfolioItem({ title, imgUrl, stack, links }) {
+function PortfolioItem({ title, description, imgUrl, stack, links }) {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const dropdownRef = useRef(null);
     const buttonRef = useRef(null);
@@ -38,13 +38,16 @@ function PortfolioItem({ title, imgUrl, stack, links }) {
             <img
                 src={imgUrl}
                 alt="portfolio project"
-                className="w-full h-36 md:h-48 xl:h-[16rem] 2xl:h-[20rem] object-cover cursor-pointer"
+                className="w-full h-36 md:h-48 xl:h-[12rem] 2xl:h-[16rem] object-cover cursor-pointer"
             />
             <div className="pb-6">  
-                <h3 className="text-lg md:text-xl xl:text-2xl 2xl:text-4xl mb-2 md:mb-3 xl:mb-6 2xl:mb-8 font-semibold pt-4 xl:pt-6 2xl:pt-8">
+                <h3 className="text-lg md:text-lg xl:text-xl 2xl:text-2xl mb-2 md:mb-3 xl:mb-6 2xl:mb-8 font-semibold pt-4 xl:pt-6 2xl:pt-8">
                     {title}
                 </h3>
-                <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm xl:text-sm 2xl:text-xl">
+                <p className="text-xs 2xl:text-sm mb-2 md:mb-3 xl:mb-6 2xl:mb-8">
+                    {description}
+                </p>
+                <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm xl:text-sm 2xl:text-lg">
                     {stack.map((item, index) => (
                         <span
                             key={index}

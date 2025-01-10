@@ -13,6 +13,7 @@ function Portfolio() {
                         key={index} // Add a unique key for each item
                         imgUrl={project.imgUrl}
                         title={project.title}
+                        description={project.description}
                         stack={project.stack}
                         links={project.links}
                     />
