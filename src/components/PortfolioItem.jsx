@@ -34,17 +34,17 @@ function PortfolioItem({ title, imgUrl, stack, links }) {
     }, [isDropdownOpen]);
 
     return (
-        <div className="border-2 border-grey-800 rounded-md overflow-hidden p-2 pb-10 relative">
+        <div className="border-2 border-grey-800 rounded-md overflow-hidden p-2 pb-10 2xl:pb-12 relative">
             <img
                 src={imgUrl}
                 alt="portfolio project"
-                className="w-full h-36 md:h-48 object-cover cursor-pointer"
+                className="w-full h-36 md:h-48 xl:h-[16rem] 2xl:h-[20rem] object-cover cursor-pointer"
             />
             <div className="pb-6">  
-                <h3 className="text-lg md:text-xl mb-2 md:mb-3 font-semibold pt-4">
+                <h3 className="text-lg md:text-xl xl:text-2xl 2xl:text-4xl mb-2 md:mb-3 xl:mb-6 2xl:mb-8 font-semibold pt-4 xl:pt-6 2xl:pt-8">
                     {title}
                 </h3>
-                <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
+                <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm xl:text-sm 2xl:text-xl">
                     {stack.map((item, index) => (
                         <span
                             key={index}
@@ -60,7 +60,7 @@ function PortfolioItem({ title, imgUrl, stack, links }) {
                     <button
                         ref={buttonRef}
                         onClick={toggleDropdown}
-                        className="inline-flex items-center px-3 py-2 w-max text-xs md:text-sm font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md active:drop-shadow-none"
+                        className="inline-flex items-center px-3 py-2 w-max text-xs md:text-sm xl:text-sm 2xl:text-xl font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md active:drop-shadow-none"
                     >
                         Project URLs 
                         <svg 
@@ -95,7 +95,7 @@ function PortfolioItem({ title, imgUrl, stack, links }) {
                         {links.map((link, index) => (
                             <li
                                 key={index}
-                                className="text-xs md:text-sm px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer"
+                                className="text-xs md:text-sm xl:text-sm 2xl:text-xl px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer"
                             >
                                 <a
                                     href={Object.values(link)}

@@ -18,9 +18,9 @@ function Navbar() {
 
     return (
         <div className="bg-gray-800 fixed w-full top-0 left-0 z-10">
-            <div className="flex justify-between mx-auto items-center py-4 px-6 md:px-24">
+            <div className="flex justify-between mx-auto items-center py-4 px-6 md:px-24 xl:px-32 2xl:px-36">
                 {/* Logo */}
-                <div className="text-white font-bold text-xl">AN.DS</div>
+                <div className="text-white font-bold text-xl xl:text-2xl 2xl:text-4xl">AN.DS</div>
 
                 {/* Hamburger Menu (visible on smaller screens) */}
                 <div 
@@ -33,7 +33,7 @@ function Navbar() {
                 {/* Nav Links (visible on larger screens) */}
                 <ul className="hidden md:flex gap-10 items-center justify-center text-center">
                     {navLinks.map((link, index) => (
-                        <li key={index} className="text-white text-sm">
+                        <li key={index} className="text-white text-sm xl:text-xl 2xl:text-3xl">
                             <a 
                                 href={link.title === 'CV' ? link.url : `#${link.id}`}
                                 target={link.title === 'CV' ? '_blank' : '_self'}

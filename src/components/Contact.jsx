@@ -75,9 +75,9 @@ const Contact = () => {
           action="https://getform.io/f/aqoozvoa"
           method="POST"
           onSubmit={handleSubmit}
-          className="flex flex-col w-full md:w-7/12"
+          className="flex flex-col w-full md:w-7/12 xl:text-lg 2xl:text-2xl"
         >
-          <p className="text-xl font-semibold mb-6 mt-10">Contact</p>
+          <p className="text-xl xl:text-2xl 2xl:text-4xl font-semibold mb-6 mt-10">Contact</p>
           
           {/* {showError && (
             <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-6" role="alert">
@@ -96,7 +96,7 @@ const Contact = () => {
                 ${errors.name ? 'border-red-500' : ''}`}
             />
             {errors.name && (
-              <p className="text-red-500 text-sm mt-1">{errors.name}</p>
+              <p className="text-red-500 text-sm xl:text-xl 2xl:text-2xl mt-1">{errors.name}</p>
             )}
           </div>
 
@@ -111,7 +111,7 @@ const Contact = () => {
                 ${errors.email ? 'border-red-500' : ''}`}
             />
             {errors.email && (
-              <p className="text-red-500 text-sm mt-1">{errors.email}</p>
+              <p className="text-red-500 text-sm xl:text-xl 2xl:text-2xl mt-1">{errors.email}</p>
             )}
           </div>
 
@@ -126,13 +126,13 @@ const Contact = () => {
                 ${errors.message ? 'border-red-500' : ''}`}
             />
             {errors.message && (
-              <p className="text-red-500 text-sm mt-1">{errors.message}</p>
+              <p className="text-red-500 text-sm xl:text-xl 2xl:text-2xl mt-1">{errors.message}</p>
             )}
           </div>
 
           <button
             type="submit"
-            className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md hover:opacity-90 active:drop-shadow-none transition-all duration-300"
+            className="text-center xl:text-xl 2xl:text-2xl inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md hover:opacity-90 active:drop-shadow-none transition-all duration-300"
           >
             Work With Me
           </button>
