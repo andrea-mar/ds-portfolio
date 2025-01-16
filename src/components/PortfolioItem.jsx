@@ -44,9 +44,7 @@ function PortfolioItem({ title, description, imgUrl, stack, links }) {
                 <h3 className="text-lg md:text-lg xl:text-xl 2xl:text-2xl mb-2 md:mb-3 xl:mb-6 2xl:mb-8 font-semibold pt-4 xl:pt-6 2xl:pt-8">
                     {title}
                 </h3>
-                <p className="text-xs 2xl:text-sm mb-2 md:mb-3 xl:mb-6 2xl:mb-8">
-                    {description}
-                </p>
+                
                 <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm xl:text-sm 2xl:text-lg">
                     {stack.map((item, index) => (
                         <span
@@ -56,6 +54,9 @@ function PortfolioItem({ title, description, imgUrl, stack, links }) {
                             {item}
                         </span>
                     ))}
+                </p>
+                <p className="text-xs 2xl:text-sm mt-2 md:mt-3 xl:mt-6 2xl:mt-8">
+                    {description}
                 </p>
             </div>
             <div className="absolute bottom-2 left-2">
