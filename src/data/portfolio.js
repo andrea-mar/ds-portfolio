@@ -27,7 +27,7 @@ export default [
             ]
     },
     {
-        title: 'Global Obesity Patterns: What Cities Tell Us',
+        title: 'Global Obesity Patterns: Predictors and Trends',
         description:'A Random Forest Regression model was trained on the Healthy Lifestyle Cities Report 2021 data to uncover key urban factors shaping obesity rates. Through feature selection and PCA dimensionality reduction, the analysis revealed some of the predictors of obesity across global cities, offering insights into worldwide health trends.',
         imgUrl: 'assets/obesity_predictors.png',
         stack:['Python', 'Pandas', 'Scikit-learn', 'MatplotLib', 'Seaborn'],
