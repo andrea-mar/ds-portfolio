@@ -37,16 +37,19 @@ export default [
                 {'MSc Thesis document': 'https://drive.google.com/file/d/1AJNrq2terQ6cfBOTaw7LSf1XYLJpcsqN/view?usp=sharing'}
             ]
     },
-    {
-        title: 'Global Obesity Patterns: Predictors and Trends',
-        description:'A Random Forest Regression model was trained on the Healthy Lifestyle Cities Report 2021 data to uncover key urban factors shaping obesity rates. Through feature selection and PCA dimensionality reduction, the analysis revealed some of the predictors of obesity across global cities, offering insights into worldwide health trends.',
-        imgUrl: 'assets/obesity_predictors.png',
-        stack:['Python', 'Pandas', 'Scikit-learn', 'MatplotLib', 'Seaborn'],
-        link: 'https://github.com/andrea-mar/DSTA-bbk-ms-dataScience/blob/main/coursework%20DSTA-final-version.ipynb',
-        links: [
-                {'Feature selection (PCA), Linear Regression and Random Forest notebook': 'https://github.com/andrea-mar/DSTA-bbk-ms-dataScience/blob/main/coursework%20DSTA-final-version.ipynb'}
-            ]
-    },
+    // {
+    //     title: 'Global Obesity Patterns: Predictors and Trends',
+    //     description:'A Random Forest Regression model was trained on the Healthy Lifestyle Cities Report 2021 data to uncover key urban factors shaping obesity rates. Through feature selection and PCA dimensionality reduction, the analysis revealed some of the predictors of obesity across global cities, offering insights into worldwide health trends.',
+    //     imgUrl: 'assets/obesity_predictors.png',
+    //     stack:['Python', 'Pandas', 'Scikit-learn', 'MatplotLib', 'Seaborn'],
+    //     link: 'https://github.com/andrea-mar/DSTA-bbk-ms-dataScience/blob/main/coursework%20DSTA-final-version.ipynb',
+    //     links: [
+    //             {'Feature selection (PCA), Linear Regression and Random Forest notebook': 'https://github.com/andrea-mar/DSTA-bbk-ms-dataScience/blob/main/coursework%20DSTA-final-version.ipynb'}
+    //         ]
+    // },
+
+
+    
     // {
     //     title: 'Reddit topic analysis',
     //     description:'This project is about extracting comments from Reddit posts and performing topic analysis on them. ',
