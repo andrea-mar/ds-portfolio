@@ -1,5 +1,16 @@
 export default [
     {
+        title: 'Credit Card Default Prediction with XGBoost and SHAP',
+        description:'This project assesses the risk of customer loan defaults using the Default of Credit Card Clients Dataset from Kaggle. An XGBoost classifier was implemented, with SHAP values used to evaluate feature impact, revealing that payment status, credit limits, and bill amounts were the most significant factors in predicting credit card defaults.', 
+        imgUrl: 'assets/credit_card_kaggle.png', 
+        stack:['Python', 'Pandas', 'scikit-learn', 'XGBoost', 'SHAP', 'Matplotlib', 'Seaborn'],
+        link: '',
+        links: [
+                {'Classification model notebook': 'https://github.com/andrea-mar/credit_default_risk/blob/main/credit_risk_model.ipynb'},
+                {'Inference notebook': 'https://github.com/andrea-mar/credit_default_risk/blob/main/inference.py'},
+            ]
+    },
+    {
         title: 'Why I Don\'t Drink: Mining Reddit\'s Sober Stories',
         description:'Data from an r/AskReddit post was analyzed using BERTopic, SentenceTransformer, and Llama 2 embeddings to uncover the reasons people give for not drinking alcohol. The analysis pipeline included data extraction via PRAW and the Reddit API, with results visualized through Matplotlib.', 
         imgUrl: 'assets/askreddit_bertopic_llama2.png',
