@@ -3,7 +3,7 @@ export default [
         title: 'Credit Card Default Prediction with XGBoost and SHAP',
         description:'This project assesses the risk of customer loan defaults using the Default of Credit Card Clients Dataset from Kaggle. An XGBoost classifier was implemented, with SHAP values used to evaluate feature impact, revealing that payment status, credit limits, and bill amounts were the most significant factors in predicting credit card defaults.', 
         imgUrl: 'assets/credit_card_kaggle.png', 
-        stack:['Python', 'Pandas', 'scikit-learn', 'XGBoost', 'SHAP', 'Matplotlib', 'Seaborn'],
+        stack:['Python', 'Pandas', 'Scikit-learn', 'XGBoost', 'SHAP', 'Matplotlib', 'Seaborn'],
         link: '',
         links: [
                 {'Classification model notebook': 'https://github.com/andrea-mar/credit_default_risk/blob/main/credit_risk_model.ipynb'},
@@ -49,7 +49,7 @@ export default [
     // },
 
 
-    
+
     // {
     //     title: 'Reddit topic analysis',
     //     description:'This project is about extracting comments from Reddit posts and performing topic analysis on them. ',
