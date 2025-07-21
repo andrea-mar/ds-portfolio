@@ -12,7 +12,7 @@ function About(){
                 <p>Since then, I have worked at Freemavens, where I helped build NLP tools from the ground up, and currently at DK, where I develop LLM-based agents and automation systems using tools like Snowflake, Vertex AI, and Gemini. My focus is on building accessible, impactful solutions - especially in NLP and applied machine learning.</p>
                 <p className="pb-4">I am always eager to learn and grow. Outside of work, I enjoy running, playing tennis, reading both fiction and non-fiction, and relaxing with my cat.</p>
                 <a
-                    href="https://drive.google.com/file/d/1_KOXr4f9bWSBAl6FMeESWFDyL2Xzfol3/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1_KOXr4f9bWSBAl6FMeESWFDyL2Xzfol3/view"
                     target="_blank"
                     className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md active:drop-shadow-none"
                 >
