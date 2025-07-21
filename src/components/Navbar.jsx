@@ -4,7 +4,7 @@ const navLinks = [
     { title: 'Home', id: 'home' },
     { title: 'About', id: 'about' },
     { title: 'Portfolio', id: 'portfolio' },
-    { title: 'CV', id: 'cv' , url: 'https://drive.google.com/file/d/1_9gSGfbAiUW0oyYLiLMmx_aX5a0Ij4dZ/view?usp=sharing'},
+    { title: 'CV', id: 'cv' , url: 'https://drive.google.com/file/d/1_KOXr4f9bWSBAl6FMeESWFDyL2Xzfol3/view'},
     { title: 'Contact', id: 'contact' }
 ];
 
